@@ -17,3 +17,11 @@ function setMonthAndDay(startMonth, startDay){
 }
 
 setMonthAndDay(2,21);
+
+var textColor = [
+    "gray",
+    "gray",
+    "black",
+    "black",
+    "black",
+];
