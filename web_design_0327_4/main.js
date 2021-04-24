@@ -15,7 +15,7 @@ function newFunction(x) {
     $("#courseTable").append("<tr>");
     $("#courseTable").append(`<td>${x + 1}</td>`);
     $("#courseTable").append(`<td>${(new Date(startDate.getTime()+7*x*millisecsPerDay)).toLocaleDateString().slice(5)}</td>`);
-    $("#courseTable").append(`<td> <font color="${textColor[x]}">${topic[x]}</font></td>`);
+    $("#courseTable").append(`<td><font color="${textColor[x]}">${topic[x]}</font></td>`);
     $("#courseTable").append("</tr>");
 }
 
